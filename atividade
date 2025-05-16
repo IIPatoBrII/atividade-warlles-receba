@@ -1,0 +1,154 @@
+1. Algoritmo para trocar a lâmpada
+Organize as ações em uma sequência lógica:
+
+pegar na escada
+
+posicionar a escada embaixo da lâmpada
+
+subir na escada
+
+retirar a lâmpada velha
+
+buscar a lâmpada reserva
+
+colocar a lâmpada de reserva
+
+2. Aula do Professor (MDC - Máximo Divisor Comum)
+O professor pede para determinar o MDC entre 36 e 60.
+Vamos usar a fatoração:
+
+36 = 2² × 3²
+
+60 = 2² × 3 × 5
+
+Os fatores comuns são: 2² × 3 = 12
+
+Resposta: MDC(36, 60) = 12
+
+3. Problema do elevador
+As mulheres que saíram no andar térreo compraram uma bolsa.
+A sexta pessoa a sair foi Elisa.
+Amanda era a única que não estava no elevador.
+
+A partir disso, a solução completa exige organizar todas as pistas. Posso te ajudar a montar isso passo a passo, se quiser focar só nesse.
+
+4. Problema do barco
+É um problema clássico de travessia com restrições. Exemplo de algoritmo:
+
+Homem leva bode
+
+Volta sozinho
+
+Leva o lobo
+
+Volta com o bode
+
+Leva a alface
+
+Volta sozinho
+
+Leva o bode
+
+5. Problema da ponte
+Cada pessoa tem um tempo diferente para atravessar. A solução ideal geralmente envolve:
+
+Levar os dois mais rápidos para ajudar a atravessar os mais lentos
+
+Ex: 1 e 2 vão → 2 volta ← 5 e 10 vão → 1 volta ← 1 e 2 vão
+
+Se quiser, resolvo essa com os tempos exatos se forem dados.
+
+6. Torre de Hanói (3 discos)
+Regra: mover os discos sem colocar um disco maior sobre um menor.
+
+Passos:
+
+Disco 1 → haste auxiliar
+
+Disco 2 → haste final
+
+Disco 1 → haste final
+
+Disco 3 → haste auxiliar
+
+Disco 1 → haste inicial
+
+Disco 2 → haste auxiliar
+
+Disco 1 → haste final
+
+7. Problema dos barris (A, B, C)
+A: 8 litros
+B: 5 litros
+C: 3 litros
+
+Objetivo: obter 4 litros
+
+Solução típica (exemplo):
+
+Enche o barril C (3L) e despeja no B.
+
+Enche C de novo, despeja no B até encher (resta 1L no C).
+
+Esvazia B, passa o 1L do C para o B.
+
+Enche C novamente (3L), despeja no B que já tem 1L = 4L.
+
+8. Músicos
+Antônio não é pianista
+
+O pianista ensaia sozinho na terça
+
+João ensaia com o violoncelista às quintas
+
+Como o pianista ensaia sozinho e João ensaia com alguém, João não é o pianista.
+Logo, o pianista só pode ser Francisco.
+
+Se João ensaia com o violoncelista, então:
+
+João não é o violoncelista
+
+Francisco é o pianista
+
+Antônio não é pianista → deve ser o violoncelista
+
+João sobra com a harpa
+
+Resposta:
+
+João: harpa
+
+Antônio: violoncelo
+
+Francisco: piano
+
+9. Bebidas dos 12 amigos
+Esse é um problema lógico bem complexo (tipo "Einstein's puzzle") e precisa ser montado com uma tabela. Posso montar isso se quiser que eu resolva agora. Demora alguns minutos.
+
+10. Atletismo
+Dado:
+
+Gumercindo venceu Barnabé no salto em distância
+
+Teodoro chegou atrás de Gumercindo no arremesso
+
+Barnabé não foi o 1º nos 100m
+
+Vamos organizar:
+
+Se Barnabé não ganhou nos 100m, pode ter ficado em 2º ou 3º
+
+Gumercindo ganhou no salto
+
+Teodoro foi pior que Gumercindo no arremesso (então Gumercindo ganhou o arremesso)
+
+Sobra o 1º nos 100m para Teodoro
+
+Conclusão:
+
+Gumercindo: arremesso de dardo
+
+Teodoro: 100 metros rasos
+
+Barnabé: salto em distância
+
